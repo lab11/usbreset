@@ -1,0 +1,27 @@
+{
+  "name": "usbreset",
+  "version": "1.0.0",
+  "description": "Reset a USB adapter.",
+  "main": "usbreset.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lab11/usbreset.git"
+  },
+  "keywords": [
+    "usb"
+  ],
+  "author": "Branden Ghena",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/lab11/usbreset/issues"
+  },
+  "homepage": "https://github.com/lab11/usbreset#readme",
+  "dependencies": {
+    "debug": "^2.2.0",
+    "ioctl": "^1.0.0",
+    "usb": "^1.1.1"
+  }
+}
